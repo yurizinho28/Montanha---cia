@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Preahvihear", sans-serif;
+    text-decoration: none;
+}
+
+body {
+    max-width: 100vw;
+    max-height: 100vh;
+    overflow: hidden;
+
+        #ceu {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            filter: blur(3px);
+            z-index: -1;
+        }
+
+        #title {
+            position: absolute;
+            top: 30%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            font-size: 40px;
+            line-height: 1.2;
+            font-weight: 400;
+            z-index: 1;
+
+            #m {
+                color: hsl(176, 7%, 44%, 100%);
+            }
+
+            #e {
+                color: hsl(0, 0%, 0%, 50%);
+            }
+
+            #cia {
+                color: hsl(186, 29%, 20%, 100%);
+            }
+        }
+
+        #montanhas {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            z-index: 2;
+        }
+
+            a {
+                background-color: hsl(0, 8%, 65%, 27%);
+                color: #fff;
+            }
+
+            #login {
+                width: 200px;                    
+                height: 100px;
+                position: absolute;
+                top: 60%;
+                left: 25%;
+                z-index: 3;
+                text-align: center;
+                padding-top: 10px;
+                font-size: 45px;
+                border-radius: 20px;
+                font-family: "Preahvihear", sans-serif;
+                transition: .3s ease;
+            }
+
+            #imgs {
+                width: 200px;                    
+                height: 100px;
+                position: absolute;
+                top: 60%;
+                right: 25%;
+                z-index: 3;
+                text-align: center;
+                padding-top: 11px;
+                font-size: 30px;
+                border-radius: 20px;
+                font-family: "Preahvihear", sans-serif;
+                line-height: 1.3;
+                transition: .3s ease;
+            }
+
+            #login:hover, #imgs:hover {
+                background-color: hsl(0, 8%, 65%, 40%);
+                transform: translateY(-5px);
+            }
+     }
